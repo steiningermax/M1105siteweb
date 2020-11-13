@@ -1,0 +1,167 @@
+/* CONFIGURATIONS */
+
+body
+{
+	
+    width: 1920px;
+    margin-left : 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    background-color: #4E5DCA;
+}
+a
+{
+	text-decoration: none;
+	color:blue;
+}
+h1
+{
+	color: #4BA529;
+	
+}
+h2
+{
+    text-align: center;
+    color: white;
+    font-size: 43px;
+    font-style: none;
+}
+h3
+{
+    text-align: center;
+    font-size: 30px;
+}
+aria
+{
+    color: whitesmoke;
+    font-style: oblique;
+}
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    text-align: center;
+    margin-left: 115px;
+}
+td
+{
+    border: 1px solid black;
+    font-size: 21px;
+}
+
+/* HAUT DE LA PAGE */
+
+.hautpage
+{
+	background-image : url("doc/la-realite-virtuelle-service-sante.jpg");
+	background-repeat : no-repeat;
+	width : 1920px;
+}
+.menu_nav
+{
+	margin-top:7%;
+	margin-left:0%;
+}
+#imageicone
+{
+	display: flex;
+	flex-direction: row;
+	
+	align-items: center;
+}
+.image
+{
+	padding-left: 10px;
+
+    padding-top: 10px;
+}
+.texte
+{
+	margin-left: 29%;
+	font-size: 35px;
+	font-family: verdana;
+	color: #4BA529;
+	text-shadow: 0 0 15px black;
+}
+#conteneur
+{
+	display : flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: darkred;
+	margin-top: 50px;
+}
+.element1:hover, .element2:hover, .element3:hover, .element4:hover
+{
+	color: white;
+	background-color: #4E5DCA;
+	transition: 0.6s;	
+}
+.element1, .element2, .element3, .element4
+{
+	list-style-type: none;
+	display: inline-block;
+	color : white;
+	background : #4BA529;
+	list-style-type: none;
+	display: inline-block;
+	font-size : 30px;
+	
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+/* 2 Textes + 1 Vidéos */
+
+.psy
+{
+    text-align: left;
+    width: 1200px;
+    margin: 20px;
+
+}
+
+#psy
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.texte1, .texte2
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: justify;
+}
+.texte1
+{
+    margin-right: 85px;
+    margin-left: 100px;
+}
+.texte2
+{
+    margin-left: 85px;
+   margin-right: 100px;
+}
+.texteg
+{
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+}
+
+.videopsy
+{
+    margin-top: 50px;
+    margin-right: 400px;
+    margin-left: 490px;
+}

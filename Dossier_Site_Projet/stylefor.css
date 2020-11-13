@@ -1,0 +1,136 @@
+/* CONFIGURATIONS */
+
+body
+{
+	
+    width: 1920px;
+    margin-left : 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    background-color: #4E5DCA;
+}
+a
+{
+	text-decoration: none;
+	color: blue;
+}
+h1
+{
+	color: #4BA529;
+	
+}
+
+h2
+{
+    text-align: center;
+    color: white;
+    font-size: 43px;
+    font-style: italic;
+}
+h3
+{
+    text-align: center;
+}
+aria
+{
+    color: whitesmoke;
+    font-style: oblique;
+}
+
+/* HAUT DE LA PAGE */
+
+.hautpage
+{
+	background-image : url("doc/la-realite-virtuelle-service-sante.jpg");
+	background-repeat : no-repeat;
+	width : 1920px;
+}
+.menu_nav
+{
+	margin-top:7%;
+	margin-left:0%;
+}
+#imageicone
+{
+	display: flex;
+	flex-direction: row;
+	
+	align-items: center;
+}
+.image
+{
+	padding-left: 10px;
+
+    padding-top: 10px;
+}
+.texte
+{
+	margin-left: 29%;
+	font-size: 35px;
+	font-family: verdana;
+	color: #4BA529;
+	text-shadow: 0 0 15px black;
+}
+#conteneur
+{
+	display : flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: skyblue;
+	margin-top: 50px;
+}
+.element1:hover, .element2:hover, .element3:hover, .element4:hover
+{
+	color: white;
+	background-color: #4E5DCA;
+	transition: 0.6s;	
+}
+.element1, .element2, .element3, .element4
+{
+	list-style-type: none;
+	display: inline-block;
+	color : white;
+	background : #4BA529;
+	list-style-type: none;
+	display: inline-block;
+	font-size : 30px;
+	
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* 2 Textes + 1 Vidéos */
+
+#for
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.texte5, .texte6
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: justify;
+    width: 700px;
+}
+.texte5
+{
+    margin-right: 85px;
+    margin-left: 75px;
+
+    
+}
+.texte6
+{
+    margin-left: 85px;
+   margin-right: 75px;
+}

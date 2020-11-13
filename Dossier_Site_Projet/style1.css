@@ -1,0 +1,151 @@
+/* CONFIGURATIONS */
+
+body
+{
+	
+    width: 1920px;
+    margin-left : 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+        background-image: url("doc/2ndfond.jpg");
+        background-repeat:no-repeat;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+h1
+{
+	color: #4BA529;
+	
+}
+aria
+{
+    color: whitesmoke;
+    font-style: oblique;
+}
+
+/* HAUT DE LA PAGE */
+
+.hautpage
+{
+	
+	background-repeat : no-repeat;
+	width : 1920px;
+}
+.menu_nav
+{
+	margin-top:7%;
+	margin-left:0%;
+}
+#imageicone
+{
+	display: flex;
+	flex-direction: row;
+	
+	align-items: center;
+}
+.image
+{
+	padding-left: 10px;
+
+    padding-top: 10px;
+}
+.texte
+{
+	margin-left: 29%;
+	font-size: 35px;
+	font-family: verdana;
+	color: #4BA529;
+	text-shadow: 0 0 15px black;
+}
+#conteneur
+{
+	display : flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: green;
+	margin-top: 50px;
+}
+.element1:hover, .element2:hover, .element3:hover, .element4:hover
+{
+	color: white;
+	background-color: #4E5DCA;
+	transition: 0.6s;	
+}
+.element1, .element2, .element3, .element4
+{
+	list-style-type: none;
+	display: inline-block;
+	color : white;
+	background : #4BA529;
+	list-style-type: none;
+	display: inline-block;
+	font-size : 30px;
+	
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* Domaines avec icônes rond */
+
+#domainec
+{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+#domaine1, #domaine2, #domaine3, #domaine4
+{
+    
+    background:#bfd70e;
+    border-radius:70%;
+    width:250px;
+    height:243px;
+    border:2px solid #1A1D7E;
+    
+    list-style-type: none;
+	display: inline-block;
+	color : whitesmoke;
+	background : #4BA529;
+	list-style-type: none;
+	display: inline-block;
+	font-size : 40px;
+    
+    text-align: center;
+}
+#domaine1:hover
+{
+	color: black;
+	background-color: darkorange;
+	transition: 0.6s;	
+}
+#domaine2:hover
+{
+	color: black;
+	background-color: darkred;
+	transition: 0.6s;	
+}
+#domaine3:hover
+{
+	color: black;
+	background-color: skyblue;
+	transition: 0.6s;	
+}
+#domaine4:hover
+{
+	color: black;
+	background-color: yellow;
+	transition: 0.6s;	
+}
